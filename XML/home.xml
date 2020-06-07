@@ -22,7 +22,7 @@
 	<panel>
 		<pTitle>Curriculum Vitae</pTitle>
 		<pURL>/cv</pURL>
-		<pImage>cvhead.png</pImage>
+		<pImage>cvhead.PNG</pImage>
 		<pDescription>What's a Profile site without a CV! please take a look.</pDescription>
 	</panel>	
 </page>

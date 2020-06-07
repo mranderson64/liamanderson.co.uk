@@ -1,10 +1,11 @@
 <?php 
 $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === 0 ? 'https://' : 'http://';
 $host = $protocol . $_SERVER['HTTP_HOST'];
-$uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\'); //uncomment before deployment dipshit
-#$urip = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-#$uri = str_replace("liam", "", $urip); // liams stupid dev enviroment
-if($uri == "" || $uri == "/"){
+$urip = $_SERVER['REQUEST_URI'];
+$uri = str_replace("/", "-", $urip); 
+#$urib = str_replace("/liam", "", $urip); // liams stupid dev enviroment
+#$uri = str_replace("/", "-", $urib); 
+if($uri == "" ){
 	$uri = "home";
 }
 $xml = simplexml_load_file("./XML/" . $uri . ".xml") or die("Error: Cannot create object");
@@ -15,10 +16,10 @@ $template = $xml->template;
 $usehtml = $xml->usehtml;
 $contentTitle = $xml->contentTitle;
 $content = $xml->content;
-include "./templates/" . $template . ".php";
-if($useTemplate == true){
+if($useTemplate == "true"){
+	include "./templates/" . $template . ".php";
 	$parseOutput = $templateOutput;
-}else if($usehtml == true){
+}else if($usehtml == "true"){
 	$parseOutput = '<div class="container">' . $content . '</div>';
 }
 ?>

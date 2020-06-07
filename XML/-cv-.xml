@@ -5,7 +5,8 @@
 	<usehtml>true</usehtml>
 	<title>Liam Anderson - Curriculum Vitae</title>
 	<description>Liam Anderson, CV, Resume</description>
-	<contentTitle><![CDATA[<h1 class="tc grey">Curriculum Vitae</h1>
+	<contentTitle></contentTitle>
+	<content><![CDATA[<h1 class="tc grey">Curriculum Vitae</h1>
 		<h2 class="grey">PROFILE SUMMARY</h2>
 		<p class="grey">I am a full-stack web developer who is passionate about information security. I have been working in the marketing industry and freelance for four years specialising in front end development and automation using technologies such as python, PHP, SQL and NodeJS to build efficient frontends and websites that have worked to increase conversions through affective UI Design and Granular telemetry tracking. Working freelance and as the sole developer for an agency I am ideally looking for a workplace that allows me to work with similar professionals and likeminded people work and work on much more complex and advanced projects, enhancing my skills and progressing further learning. </p>
 		<h2 class="grey">SKILLS AND ABILITIES</h2>
@@ -33,5 +34,5 @@
 		<h2 class="grey">HOBBIES AND INTERESTS</h2>
 		<p class="grey">I consider myself a &ldquo;Tinkerer/Maker&rdquo; with an interest in anything mechanical or electronic, I commonly find myself accidentally spending way more time than I initially intended learning something new or integral to an ongoing project</p>
 		<p class="grey">When I&rsquo;m not learning or tinkering, I will be engaging I&rsquo;m some sort of outdoor activity like mountain biking, hiking or riding my motorbike.</p></contentTitle>
-	<content>]]></content>
+	]]></content>
 </page>
