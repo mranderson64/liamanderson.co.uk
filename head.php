@@ -24,7 +24,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->	
 	<div class="hero wA darktealbg">
-		<img src="<?php echo $host ?>/IMAGES/hero-3.jpg" class="coverimg">
+		<img src="<?php echo $host ?>/IMAGES/hero-<?php echo rand(1, 3); ?>.jpg" class="coverimg">
 		<div class="avi lighttealbg">
 			<img src="<?php echo $host ?>/IMAGES/avi.jpg" class="coverimg">
 		</div>

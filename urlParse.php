@@ -5,7 +5,7 @@ $urip = $_SERVER['REQUEST_URI'];
 $uri = str_replace("/", "-", $urip); 
 #$urib = str_replace("/liam", "", $urip); // liams stupid dev enviroment
 #$uri = str_replace("/", "-", $urib); 
-if($uri == "" ){
+if($uri == "" || $uri == "-"){
 	$uri = "home";
 }
 $xml = simplexml_load_file("./XML/" . $uri . ".xml") or die("Error: Cannot create object");
