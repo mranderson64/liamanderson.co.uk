@@ -3,7 +3,6 @@
 	<useTemplate>true</useTemplate>
 	<template>homepage</template>
 	<usehtml>false</usehtml>
-	<html></html>
 	<title>Liam Anderson - Profile, Portfolio and Projects</title>
 	<description>Liam Anderson Full-Stack Web developer | Lancashire, Lancaster</description>
 	<contentTitle>Profile, Portfolio and Projects</contentTitle>
