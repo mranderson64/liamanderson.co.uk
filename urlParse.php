@@ -17,6 +17,6 @@ include "./templates/" . $template . ".php";
 if($useTemplate == true){
 	$parseOutput = $templateOutput;
 }else if($usehtml == true){
-	$parseOutput = "<div class="container">" . $content . "</div>";
+	$parseOutput = '<div class="container">' . $content . '</div>';
 }
 ?>
