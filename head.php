@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link href="./style.css" rel="stylesheet">
+<link href="<?php echo $host ?>/style.css" rel="stylesheet">
 <title><?php echo $title; ?></title>
 <meta name="description" content="<?php echo $description; ?>">
 <!-- Google Tag Manager -->
@@ -24,8 +24,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->	
 	<div class="hero wA darktealbg">
-		<img src="./IMAGES/hero-3.jpg" class="coverimg">
+		<img src="<?php echo $host ?>/IMAGES/hero-3.jpg" class="coverimg">
 		<div class="avi lighttealbg">
-			<img src="./IMAGES/avi.jpg" class="coverimg">
+			<img src="<?php echo $host ?>/IMAGES/avi.jpg" class="coverimg">
 		</div>
 	</div>

@@ -9,7 +9,7 @@ while($i <= count($xml->panel)){
 						<a href="' . $xml->panel[$o]->pURL . '">
 							<div class="project lighttealbg">
 								<div class="pimg darktealbg">
-									<img src="./IMAGES/' . $xml->panel[$o]->pImage . '" class="coverimg">
+									<img src="' . $host . '/IMAGES/' . $xml->panel[$o]->pImage . '" class="coverimg">
 								</div>
 								<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
 								<p class="navy">' . $xml->panel[$o]->pDescription . '</p>
@@ -21,7 +21,7 @@ while($i <= count($xml->panel)){
 						<a href="' . $xml->panel[$o]->pURL . '">
 							<div class="project lighttealbg">
 								<div class="pimg darktealbg">
-									<img src="./IMAGES/' . $xml->panel[$o]->pImage . '" class="coverimg">
+									<img src="' . $host . '/IMAGES/' . $xml->panel[$o]->pImage . '" class="coverimg">
 								</div>
 								<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
 								<p class="navy">' . $xml->panel[$o]->pDescription . '</p>
@@ -31,7 +31,7 @@ while($i <= count($xml->panel)){
 		$middle .= '<a href="' . $xml->panel[$o]->pURL . '">
 						<div class="project lighttealbg">
 							<div class="pimg darktealbg">
-								<img src="./IMAGES/' . $xml->panel[$o]->pImage . '" class="coverimg">
+								<img src="' . $host . '/IMAGES/' . $xml->panel[$o]->pImage . '" class="coverimg">
 							</div>
 							<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
 							<p class="navy">' . $xml->panel[$o]->pDescription . '</p>
