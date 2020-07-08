@@ -155,6 +155,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 	.avi > .coverimg{
 		    border-radius: 50%;
 	}
+	.avi > a > .coverimg{
+		    border-radius: 50%;
+	}	
 	.container{
 		max-width:1900px;
 		width:80%;
