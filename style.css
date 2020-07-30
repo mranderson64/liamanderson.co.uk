@@ -21,6 +21,8 @@ body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; co
 ========================================================================== */
 a { color: #555b6e; }
 a:visited { color: #282b34; }
+a.grey { color: #fff; }
+a.grey:visited { color: #909090; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
