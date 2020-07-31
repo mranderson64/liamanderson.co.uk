@@ -33,8 +33,8 @@
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQCFLJ9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->	
 			<div class="hero wA darktealbg">
-				<img src="" class="coverimg">
+				<img src="<?php wp_get_attachment_image_src(8) ?>" class="coverimg">
 				<div class="avi lighttealbg">
-					<a href="<?php site_url(); ?>"><img src="" class="coverimg"></a>
+					<a href="<?php site_url(); ?>"><img src="<?php wp_get_attachment_image_src(7) ?>" class="coverimg"></a>
 				</div>
 			</div>
