@@ -41,9 +41,9 @@
 			} else {
 				the_content( __( 'Continue reading', 'liamanderson' ) );
 				if($categorieP == 'Snippets'){
-					echo '<div class="code"><pre rel="'.$categorieC.'" class="'.$categorieC.'"><code>'
+					echo '<div class="code"><pre rel="'.$categorieC.'" class="'.$categorieC.'"><code>';
 					get_field( "code" );
-					echo '</code></pre></div>'
+					echo '</code></pre></div>';
 				}
 			}
 			
