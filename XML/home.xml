@@ -43,12 +43,12 @@
 		<pImage>logo-wb.png</pImage>
 		<pDescription>A parody of the adult content site only fans</pDescription>
 	</panel>
-	<panel>
+	<!--<panel>
 		<pTitle>Portfolio1.liamanderson.co.uk</pTitle>
 		<pURL>https://Portfolio1.liamanderson.co.uk</pURL>
 		<pImage>portfolio-1.png</pImage>
 		<pDescription>Here is a showcase the first interactive portfolio I made, yes it did originally run on a wii.</pDescription>
-	</panel>
+	</panel>-->
 	<panel>
 		<pTitle>fit.liamanderson.co.uk</pTitle>
 		<pURL>https://fit.liamanderson.co.uk</pURL>
