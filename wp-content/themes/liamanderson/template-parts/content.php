@@ -38,7 +38,7 @@
 				the_excerpt();
 			} else {
 				the_content( __( 'Continue reading', 'liamanderson' ) );
-				if(strpos($categorieC, 'snippets')){
+				if(strpos(strval($categorieC), 'snippets')){
 					echo '<div class="code"><pre rel="'.$categorieC[1]->name.'" class="'.$categorieC[1]->name.'"><code>';
 					get_field( "code" );
 					echo '</code></pre></div>';
