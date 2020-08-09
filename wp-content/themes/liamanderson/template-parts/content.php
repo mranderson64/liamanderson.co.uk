@@ -30,7 +30,7 @@
 		<div class="entry-content">
 
 			<?php
-			$categorieC=get_the_categories();
+			$categorieC=get_the_category();
 			/* $categorieP=get_categories(
 				array( 'parent' => $cat->cat_name )
 			); */
