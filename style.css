@@ -275,6 +275,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 	.pimg{
 		height:300px;
 	}
+	.slopet{
+		width:95%;
+	}
 
 }
 
