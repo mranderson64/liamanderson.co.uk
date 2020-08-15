@@ -202,7 +202,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 	.slopeb{
 		position: relative;
     		left: 0;
-    		bottom: -5px;
+    		bottom: 15px;
+    		margin-top: -10vw;
 	}
 
 /* 	
