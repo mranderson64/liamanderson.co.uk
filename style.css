@@ -178,9 +178,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 		width:100%;
 		box-sizing:border-box;
 		padding:15px;
-		margin-top:5px;
-		margin-bottom:5px;
-		min-height:60vh;
+		margin-top:15px;
+		margin-bottom:15px;
 	}
 	.pimg{
 		width:100%;
@@ -194,6 +193,16 @@ table { border-collapse: collapse; border-spacing: 0; }
 		margin-left: 25px;
 		margin-right: 25px;
 		display: inline-block;
+	}
+	.slopet{
+		transform: rotate(180deg);
+    		position: absolute;
+    		width: 99%;
+	}
+	.slopeb{
+		position: relative;
+    		left: 0;
+    		bottom: -5px;
 	}
 
 /* 	
