@@ -8,7 +8,7 @@ while($i <= count($xml->panel)){
 		$middle .= '<div class="row">
 						<a href="' . $xml->panel[$o]->pURL . '">
 							<div class="project lighttealbg">
-								<div class="pimg darktealbg">
+								<div class="pimg lighttealbg">
 									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 									<img src="' . $host . '/IMAGES/' . $xml->panel[$o]->pImage . '" class="coverimg">
 									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
@@ -22,7 +22,7 @@ while($i <= count($xml->panel)){
 		$middle .= '<div class="row">
 						<a href="' . $xml->panel[$o]->pURL . '">
 							<div class="project lighttealbg">
-								<div class="pimg darktealbg">
+								<div class="pimg lighttealbg">
 									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 									<img src="' . $host . '/IMAGES/' . $xml->panel[$o]->pImage . '" class="coverimg">
 									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
@@ -34,7 +34,7 @@ while($i <= count($xml->panel)){
 	}else{
 		$middle .= '<a href="' . $xml->panel[$o]->pURL . '">
 						<div class="project lighttealbg">
-							<div class="pimg darktealbg">
+							<div class="pimg lighttealbg">
 								<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 								<img src="' . $host . '/IMAGES/' . $xml->panel[$o]->pImage . '" class="coverimg">
 								<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
