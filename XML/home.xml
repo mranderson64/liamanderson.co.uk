@@ -14,6 +14,24 @@
 		]]>
 	</intro>
 	<panel>
+		<pTitle>DataMule</pTitle>
+		<pURL>https://datamule.liamanderson.co.uk</pURL>
+		<pImage>logo-square_w_bg.png</pImage>
+		<pDescription>&lt;DataMule&gt; is a clearnet tool for those interested in the numbers and trends without stepping foot in the darkweb</pDescription>
+	</panel>
+	<panel>
+		<pTitle>NU-REBEL.co.uk</pTitle>
+		<pURL>https://NU-REBEL.co.uk</pURL>
+		<pImage>nurebel.png</pImage>
+		<pDescription>NU REBEL is a lifestyle and marketing brand dedicated to making a difference and showing to the world what people can do!</pDescription>
+	</panel>
+	<panel>
+		<pTitle>onlyrams.co.uk</pTitle>
+		<pURL>https://onlyrams.co.uk</pURL>
+		<pImage>logo-wb.png</pImage>
+		<pDescription>A parody of the adult content site only fans</pDescription>
+	</panel>
+	<panel>
 		<pTitle>Blog</pTitle>
 		<pURL>https://blog.liamanderson.co.uk</pURL>
 		<pImage>blog.png</pImage>
@@ -24,24 +42,6 @@
 		<pURL>/cv/</pURL>
 		<pImage>cvhead.PNG</pImage>
 		<pDescription>What's a Profile site without a CV! please take a look.</pDescription>
-	</panel>
-	<panel>
-		<pTitle>NU-REBEL.co.uk</pTitle>
-		<pURL>https://NU-REBEL.co.uk</pURL>
-		<pImage>nurebel.png</pImage>
-		<pDescription>NU REBEL is a lifestyle and marketing brand dedicated to making a difference and showing to the world what people can do!</pDescription>
-	</panel>
-	<panel>
-		<pTitle>DataMule</pTitle>
-		<pURL>https://datamule.liamanderson.co.uk</pURL>
-		<pImage>logo-square_w_bg.png</pImage>
-		<pDescription>&lt;DataMule&gt; is a clearnet tool for those interested in the numbers and trends without stepping foot in the darkweb</pDescription>
-	</panel>
-	<panel>
-		<pTitle>onlyrams.co.uk</pTitle>
-		<pURL>https://onlyrams.co.uk</pURL>
-		<pImage>logo-wb.png</pImage>
-		<pDescription>A parody of the adult content site only fans</pDescription>
 	</panel>
 	<!--<panel>
 		<pTitle>Portfolio1.liamanderson.co.uk</pTitle>
