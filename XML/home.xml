@@ -39,7 +39,7 @@
 	</panel>
 	<panel>
 		<pTitle>Curriculum Vitae</pTitle>
-		<pURL>/cv/</pURL>
+		<pURL>/files/CV%20-%202852020.pdf</pURL>
 		<pImage>cvhead.PNG</pImage>
 		<pDescription>What's a Profile site without a CV! please take a look.</pDescription>
 	</panel>
@@ -48,12 +48,12 @@
 		<pURL>https://Portfolio1.liamanderson.co.uk</pURL>
 		<pImage>portfolio-1.png</pImage>
 		<pDescription>Here is a showcase the first interactive portfolio I made, yes it did originally run on a wii.</pDescription>
-	</panel>-->
+	</panel>
 	<panel>
 		<pTitle>fit.liamanderson.co.uk</pTitle>
 		<pURL>https://fit.liamanderson.co.uk</pURL>
 		<pImage>file.png</pImage>
 		<pDescription>Very basic fitness and health tracker interfaced through IOS automation scripts and siri.</pDescription>
-	</panel>
-		
+	</panel>-->
+
 </page>
