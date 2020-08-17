@@ -7,6 +7,18 @@
 	<description>Liam Anderson Full-Stack Web developer | Lancashire, Lancaster</description>
 	<contentTitle>Profile, Portfolio and Projects</contentTitle>
 	<content></content>
+	<intro>
+		<![CDATA[
+			<p class="tc grey">Hi, I&rsquo;m Liam a Full-Stack web developer with over four years experience working as a web developer in a professional capacity using a plethora of languages including PHP, Python, JS, SCSS and working with many CMSs like WordPress, Magento, Drupal and Django to create web sites and applications, I have also been involved in data science projects creating automation and data gathering tools.</p>
+			<p class="tc grey">I offer freelance and project consultation so please feel free to look at some of my in development projects on display here, visit my <a href="https://github.com/mranderson64/">GitHub </a>profile or email me at <a href="mailto:me@liamanderson.co.uk">me@liamanderson.co.uk</a>. I also Provide Tutoring for programming and Computer Science, if yourself, child or someone else is interested get in touch via email to discuss package and curriculum</p>
+		]]>
+	</intro>
+	<panel>
+		<pTitle>DataMule</pTitle>
+		<pURL>https://datamule.liamanderson.co.uk</pURL>
+		<pImage>logo-square_w_bg.png</pImage>
+		<pDescription>&lt;DataMule&gt; is a clearnet tool for those interested in the numbers and trends without stepping foot in the darkweb</pDescription>
+	</panel>
 	<panel>
 		<pTitle>NU-REBEL.co.uk</pTitle>
 		<pURL>https://NU-REBEL.co.uk</pURL>
@@ -20,15 +32,28 @@
 		<pDescription>A parody of the adult content site only fans</pDescription>
 	</panel>
 	<panel>
+		<pTitle>Blog</pTitle>
+		<pURL>https://blog.liamanderson.co.uk</pURL>
+		<pImage>blog.png</pImage>
+		<pDescription>Here I will be posting updates on projects I'm working on idea concepts and code snippits.</pDescription>
+	</panel>
+	<panel>
+		<pTitle>Curriculum Vitae</pTitle>
+		<pURL>/cv/</pURL>
+		<pImage>cvhead.PNG</pImage>
+		<pDescription>What's a Profile site without a CV! please take a look.</pDescription>
+	</panel>
+	<!--<panel>
 		<pTitle>Portfolio1.liamanderson.co.uk</pTitle>
 		<pURL>https://Portfolio1.liamanderson.co.uk</pURL>
 		<pImage>portfolio-1.png</pImage>
 		<pDescription>Here is a showcase the first interactive portfolio I made, yes it did originally run on a wii.</pDescription>
-	</panel>
+	</panel>-->
 	<panel>
-		<pTitle>Curriculum Vitae</pTitle>
-		<pURL>/cv</pURL>
-		<pImage>cvhead.PNG</pImage>
-		<pDescription>What's a Profile site without a CV! please take a look.</pDescription>
-	</panel>	
+		<pTitle>fit.liamanderson.co.uk</pTitle>
+		<pURL>https://fit.liamanderson.co.uk</pURL>
+		<pImage>file.png</pImage>
+		<pDescription>Very basic fitness and health tracker interfaced through IOS automation scripts and siri.</pDescription>
+	</panel>
+		
 </page>

@@ -21,6 +21,8 @@ body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; co
 ========================================================================== */
 a { color: #555b6e; }
 a:visited { color: #282b34; }
+.grey a { color: #fff; }
+.grey a:visited { color: #909090; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
@@ -155,6 +157,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 	.avi > .coverimg{
 		    border-radius: 50%;
 	}
+	.avi > a > .coverimg{
+		    border-radius: 50%;
+	}	
 	.container{
 		max-width:1900px;
 		width:80%;
@@ -170,18 +175,14 @@ table { border-collapse: collapse; border-spacing: 0; }
 		text-align:center;	
 	}
 	.project{
-		width:calc(50% - 10px);
-		float:left;
-		border-radius:25px;
+		width:100%;
 		box-sizing:border-box;
 		padding:15px;
-		margin:5px;
-		min-height:380px;
+		margin-top:15px;
+		margin-bottom:15px;
 	}
 	.pimg{
 		width:100%;
-		height:250px;
-		border-radius:25px;
 		overflow:hidden;
 		box-sizing: border-box;
 	}
@@ -192,6 +193,17 @@ table { border-collapse: collapse; border-spacing: 0; }
 		margin-left: 25px;
 		margin-right: 25px;
 		display: inline-block;
+	}
+	.slopet{
+		transform: rotate(180deg);
+    		position: absolute;
+    		width: 99%;
+	}
+	.slopeb{
+		position: relative;
+    		left: 0;
+    		bottom: 15px;
+    		margin-top: -10vw;
 	}
 
 /* 	
@@ -263,8 +275,29 @@ table { border-collapse: collapse; border-spacing: 0; }
 	.pimg{
 		height:300px;
 	}
+	.slopet{
+		width:95%;
+	}
 
 }
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 
 
 /* 	

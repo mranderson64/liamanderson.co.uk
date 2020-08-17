@@ -26,5 +26,6 @@
 			</a>
 		</div>
     </footer>
+<script src="/functions.js"></script>
 </body>
 </html>

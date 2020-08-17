@@ -26,6 +26,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="hero wA darktealbg">
 		<img src="<?php echo $host ?>/IMAGES/hero-<?php echo rand(1, 3); ?>.jpg" class="coverimg">
 		<div class="avi lighttealbg">
-			<img src="<?php echo $host ?>/IMAGES/avi.jpg" class="coverimg">
+			<a href="<?php echo $host; ?>"><img src="<?php echo $host ?>/IMAGES/avi.jpg" class="coverimg"></a>
 		</div>
 	</div>
