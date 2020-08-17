@@ -27,5 +27,10 @@
 		</div>
     </footer>
 <script src="/functions.js"></script>
+<script>
+	window.onload = function(){
+		document.getElementsByTagName('body')[0].classList.add('load');
+	}
+</script>
 </body>
 </html>
