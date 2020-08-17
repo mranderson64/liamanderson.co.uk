@@ -4,7 +4,7 @@ $middle = '<div class="home-content-wrap">';
 $i = 1;
 while($i <= count($xml->panel)){
 	$o = $i-1;
-	if($i % 2 && $i != 0){
+	if($i % 2 != 0){
 		$middle .= '<div class="w-layout-grid about-grid">
 			<div>
 				<div class="home-section-wrap">
@@ -15,7 +15,7 @@ while($i <= count($xml->panel)){
 					<div>Learn More</div>
 				</a>
 			</div>
-			<img src="' . $xml->panel[$o]->pTitle . '" alt="' . $xml->panel[$o]->pTitle . '">
+			<img src="' . $xml->panel[$o]->pImage . '" alt="' . $xml->panel[$o]->pTitle . '">
 		</div>';
 	}else{
 		$middle .= '<div class="w-layout-grid about-grid cc-about-2">
