@@ -1,5 +1,5 @@
-<?php 
-$top = '<div class="container"><h1 class="tc grey">' . $contentTitle . '</h1>' . $xml->intro . '</div><div class="row">';
+<?php
+$top = '<div class="container"><h1 class="tc grey">' . $contentTitle . '</h1>' . $xml->intro . '';
 $middle = '';
 $i = 1;
 while($i <= count($xml->panel)){
@@ -44,11 +44,11 @@ while($i <= count($xml->panel)){
 						</div>
 					</a>
 				</div>';
-	} 
-	$i ++;			
+	}
+	$i ++;
 }
-$bottom = '</div></div>';
+$bottom = '</div>';
 
 $templateOutput = $top . $middle . $bottom;
-	
+
 ?>
