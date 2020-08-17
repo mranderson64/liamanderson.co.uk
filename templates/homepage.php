@@ -11,11 +11,11 @@ while($i <= count($xml->panel)){
 					<h2 class="section-heading heading-2">' . $xml->panel[$o]->pTitle . '</h2>
 					<p class="paragraph-light">' . $xml->panel[$o]->pDescription . '</p>
 				</div>
-				<a href="./IMAGES/' . $xml->panel[$o]->pImage . '" class="button w-inline-block">
+				<a href="' . $xml->panel[$o]->pURL . '" class="button w-inline-block">
 					<div>Learn More</div>
 				</a>
 			</div>
-			<img src="' . $xml->panel[$o]->pImage . '" alt="' . $xml->panel[$o]->pTitle . '">
+			<img src="./IMAGES/' . $xml->panel[$o]->pImage . '" alt="' . $xml->panel[$o]->pTitle . '">
 		</div>';
 	}else{
 		$middle .= '<div class="w-layout-grid about-grid cc-about-2">
@@ -24,11 +24,11 @@ while($i <= count($xml->panel)){
 					<h2 class="section-heading heading-2">' . $xml->panel[$o]->pTitle . '</h2>
 					<p class="paragraph-light">' . $xml->panel[$o]->pDescription . '</p>
 				</div>
-				<a href="./IMAGES/' . $xml->panel[$o]->pImage . '" class="button w-inline-block">
+				<a href="' . $xml->panel[$o]->pURL . '" class="button w-inline-block">
 					<div>Learn More</div>
 				</a>
 			</div>
-			<img src="' . $xml->panel[$o]->pImage . '" alt="' . $xml->panel[$o]->pTitle . '">
+			<img src="./IMAGES/' . $xml->panel[$o]->pImage . '" alt="' . $xml->panel[$o]->pTitle . '">
 		</div>';
 	}
 	$i ++;
