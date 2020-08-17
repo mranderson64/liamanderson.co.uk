@@ -10,7 +10,7 @@ while($i <= count($xml->panel)){
 							<div class="project lighttealbg">
 								<div class="pimg lighttealbg">
 									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
-									<iframe desk-src="' . $xml->panel[$o]->pURL . '" style="height:60vw;border: none;width: calc(80vw - 45px);" scrolling="no" class="lazy-load-me"></iframe>
+									<iframe desk-src="' . $xml->panel[$o]->pURL . '" scrolling="no" class="lazy-load-me"></iframe>
 									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 								</div>
 								<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
@@ -24,7 +24,7 @@ while($i <= count($xml->panel)){
 							<div class="project lighttealbg">
 								<div class="pimg lighttealbg">
 									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
-									<iframe desk-src="' . $xml->panel[$o]->pURL . '" style="height:60vw;border: none;width: calc(80vw - 45px);" scrolling="no" class="lazy-load-me"></iframe>
+									<iframe desk-src="' . $xml->panel[$o]->pURL . '" scrolling="no" class="lazy-load-me"></iframe>
 									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 								</div>
 								<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
@@ -36,7 +36,7 @@ while($i <= count($xml->panel)){
 						<div class="project lighttealbg">
 							<div class="pimg lighttealbg">
 								<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
-								<iframe desk-src="' . $xml->panel[$o]->pURL . '" style="height:60vw;border: none;width: calc(80vw - 45px);" scrolling="no" class="lazy-load-me"></iframe>
+								<iframe desk-src="' . $xml->panel[$o]->pURL . '" scrolling="no" class="lazy-load-me"></iframe>
 								<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 							</div>
 							<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
