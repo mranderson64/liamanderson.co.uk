@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link href="./Business - Webflow HTML website template_files/liam-andersons-business-starter.webflow.cdcbc1c6f.css" rel="stylesheet" type="text/css">
+<link href="./style.css" rel="stylesheet" type="text/css">
 <title><?php echo $title; ?></title>
 <meta name="description" content="<?php echo $description; ?>">
 <!-- Google Tag Manager -->
