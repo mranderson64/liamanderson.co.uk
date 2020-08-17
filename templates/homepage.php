@@ -1,6 +1,6 @@
 <?php
-$top = '<div class="home-content-wrap">';
-$middle = '';
+$top = '<div class="container">';
+$middle = '<div class="home-content-wrap">';
 $i = 1;
 while($i <= count($xml->panel)){
 	$o = $i-1;
@@ -28,12 +28,12 @@ while($i <= count($xml->panel)){
 					<div>Learn More</div>
 				</a>
 			</div>
-			<img src="' . $xml->panel[$o]->pTitle . '" alt="' . $xml->panel[$o]->pTitle . '">
+			<img src="' . $xml->panel[$o]->pImage . '" alt="' . $xml->panel[$o]->pTitle . '">
 		</div>';
 	}
 	$i ++;
 }
-$bottom = '</div>';
+$bottom = '</div></div>';
 
 $templateOutput = $top . $middle . $bottom;
 
