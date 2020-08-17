@@ -205,6 +205,11 @@ table { border-collapse: collapse; border-spacing: 0; }
     		bottom: 15px;
     		margin-top: -10vw;
 	}
+  .project iframe{
+    height: 60vw;
+    border: none;
+    width: calc(80vw - 45px);
+}
 
 /*
 =============================================================================
@@ -276,8 +281,11 @@ table { border-collapse: collapse; border-spacing: 0; }
 		height:300px;
 	}
 	.slopet{
-		width:95%;
+		width:94%;
 	}
+  .project iframe{
+    width:100%;
+  }
 
 }
 
