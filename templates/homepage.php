@@ -4,7 +4,7 @@ $middle = '<div class="home-content-wrap">';
 $i = 1;
 while($i <= count($xml->panel)){
 	$o = $i-1;
-	if($i % 2 != 0){
+	if($i % 2 == 0){
 		$middle .= '<div class="w-layout-grid about-grid">
 			<div>
 				<div class="home-section-wrap">
