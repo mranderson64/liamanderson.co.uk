@@ -1,54 +1,40 @@
-<?php 
-$top = '<div class="container"><h1 class="tc grey">' . $contentTitle . '</h1>' . $xml->intro . '</div><div class="row">';
+<?php
+$top = '<div class="home-content-wrap">';
 $middle = '';
 $i = 1;
 while($i <= count($xml->panel)){
 	$o = $i-1;
-	if($i == count($xml->panel) && $i % 2 != 0){
-		$middle .= '<div class="row">
-						<a href="' . $xml->panel[$o]->pURL . '">
-							<div class="project lighttealbg">
-								<div class="pimg lighttealbg">
-									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
-									<iframe desk-src="' . $xml->panel[$o]->pURL . '" style="height:60vw;border: none;width: calc(100vw - 45px);" scrolling="no" class="lazy-load-me"></iframe>
-									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
-								</div>
-								<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
-								<p class="navy">' . $xml->panel[$o]->pDescription . '</p>
-							</div>
-						</a>
-					</div>';
-	}else if($i % 2 != 0){
-		$middle .= '<div class="row">
-						<a href="' . $xml->panel[$o]->pURL . '">
-							<div class="project lighttealbg">
-								<div class="pimg lighttealbg">
-									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
-									<iframe desk-src="' . $xml->panel[$o]->pURL . '" style="height:60vw;border: none;width: calc(100vw - 45px);" scrolling="no" class="lazy-load-me"></iframe>
-									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
-								</div>
-								<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
-								<p class="navy">' . $xml->panel[$o]->pDescription . '</p>
-							</div>
-						</a>';
+	if($i % 2 && $i != 0){
+		$middle .= '<div class="w-layout-grid about-grid">
+			<div>
+				<div class="home-section-wrap">
+					<h2 class="section-heading heading-2">' . $xml->panel[$o]->pTitle . '</h2>
+					<p class="paragraph-light">' . $xml->panel[$o]->pDescription . '</p>
+				</div>
+				<a href="./IMAGES/' . $xml->panel[$o]->pImage . '" class="button w-inline-block">
+					<div>Learn More</div>
+				</a>
+			</div>
+			<img src="' . $xml->panel[$o]->pTitle . '" alt="' . $xml->panel[$o]->pTitle . '">
+		</div>';
 	}else{
-		$middle .= '<a href="' . $xml->panel[$o]->pURL . '">
-						<div class="project lighttealbg">
-							<div class="pimg lighttealbg">
-								<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
-								<iframe desk-src="' . $xml->panel[$o]->pURL . '" style="height:60vw;border: none;width: calc(100vw - 45px);" scrolling="no" class="lazy-load-me"></iframe>
-								<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
-							</div>
-							<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
-							<p class="navy">' . $xml->panel[$o]->pDescription . '</p>
-						</div>
-					</a>
-				</div>';
-	} 
-	$i ++;			
+		$middle .= '<div class="w-layout-grid about-grid cc-about-2">
+			<div>
+				<div class="home-section-wrap">
+					<h2 class="section-heading heading-2">' . $xml->panel[$o]->pTitle . '</h2>
+					<p class="paragraph-light">' . $xml->panel[$o]->pDescription . '</p>
+				</div>
+				<a href="./IMAGES/' . $xml->panel[$o]->pImage . '" class="button w-inline-block">
+					<div>Learn More</div>
+				</a>
+			</div>
+			<img src="' . $xml->panel[$o]->pTitle . '" alt="' . $xml->panel[$o]->pTitle . '">
+		</div>';
+	}
+	$i ++;
 }
-$bottom = '</div></div>';
+$bottom = '</div>';
 
 $templateOutput = $top . $middle . $bottom;
-	
+
 ?>
