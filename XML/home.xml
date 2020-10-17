@@ -14,6 +14,12 @@
 		]]>
 	</intro>
 	<panel>
+		<pTitle>tools.liamanderson.co.uk</pTitle>
+		<pURL>https://tools.liamanderson.co.uk</pURL>
+		<pImage></pImage>
+		<pDescription>Here is a collection of some tools I've built for myself, friends and colleagues.</pDescription>
+	</panel>
+	<panel>
 		<pTitle>DataMule</pTitle>
 		<pURL>https://datamule.liamanderson.co.uk</pURL>
 		<pImage>logo-square_w_bg.png</pImage>
