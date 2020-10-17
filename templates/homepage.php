@@ -9,9 +9,7 @@ while($i <= count($xml->panel)){
 						<a href="' . $xml->panel[$o]->pURL . '">
 							<div class="project lighttealbg">
 								<div class="pimg lighttealbg">
-									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 									<iframe desk-src="' . $xml->panel[$o]->pURL . '" scrolling="no" class="lazy-load-me"></iframe>
-									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 								</div>
 								<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
 								<p class="navy">' . $xml->panel[$o]->pDescription . '</p>
@@ -23,9 +21,7 @@ while($i <= count($xml->panel)){
 						<a href="' . $xml->panel[$o]->pURL . '">
 							<div class="project lighttealbg">
 								<div class="pimg lighttealbg">
-									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 									<iframe desk-src="' . $xml->panel[$o]->pURL . '" scrolling="no" class="lazy-load-me"></iframe>
-									<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 								</div>
 								<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
 								<p class="navy">' . $xml->panel[$o]->pDescription . '</p>
@@ -35,9 +31,7 @@ while($i <= count($xml->panel)){
 		$middle .= '<a href="' . $xml->panel[$o]->pURL . '">
 						<div class="project lighttealbg">
 							<div class="pimg lighttealbg">
-								<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopet">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 								<iframe desk-src="' . $xml->panel[$o]->pURL . '" scrolling="no" class="lazy-load-me"></iframe>
-								<svg preserveAspectRatio="none" viewBox="0 0 400 39" class="slopeb">  <path fill="#bee3de" class="cls-1" d="M400,39H0V38.3L400,0V39Z"></path></svg>
 							</div>
 							<h3 class="navy">' . $xml->panel[$o]->pTitle . '</h3>
 							<p class="navy">' . $xml->panel[$o]->pDescription . '</p>
