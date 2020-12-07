@@ -30,20 +30,32 @@
 		<div class="entry-content">
 
 			<?php
+<<<<<<< HEAD
 			$theId = get_the_ID();
+=======
+>>>>>>> 3ce21289415b34e71180bd6dcd115959a113321d
 			$categorieC=get_the_category();
 			/* $categorieP=get_categories(
 				array( 'parent' => $cat->cat_name )
 			); */
-			); */
 			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();
+<<<<<<< HEAD
 
 			} else {
 				the_content( __( 'Continue reading', 'liamanderson' ) );
 				if($categorieC[1]->name == "Snippets"){
 					echo '<div class="code"><pre rel="'.$categorieC[0]->name.'" class="'.$categorieC[0]->name.'"><code>';
 					echo get_field('code', $theId);
+=======
+				
+			} else {
+				the_content( __( 'Continue reading', 'liamanderson' ) );
+				echo strval($categorieC);
+				if(strpos(strval($categorieC), 'snippets')){
+					echo '<div class="code"><pre rel="'.$categorieC[1]->name.'" class="'.$categorieC[1]->name.'"><code>';
+					get_field( "code" );
+>>>>>>> 3ce21289415b34e71180bd6dcd115959a113321d
 					echo '</code></pre></div>';
 				}
 			}
