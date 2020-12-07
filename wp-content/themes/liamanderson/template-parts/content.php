@@ -41,7 +41,7 @@
 			} else {
 				the_content( __( 'Continue reading', 'liamanderson' ) );
 				if($categorieC[1]->name == "Snippets"){
-					echo '<div class="code"><pre rel="'.$categorieC[0]->name.'" class="'.$categorieC[0]->name.'"><code>';
+					echo '<div class="code"><pre rel="'.$categorieC[0]->name.'" class="'.$categorieC[0]->name.'"><code class="language-'.$categorieC[0]->name.'">';
 					echo get_field('code', $theId);
 					echo '</code></pre></div>';
 				}
