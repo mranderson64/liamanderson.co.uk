@@ -114,7 +114,7 @@ blockquote::after {
 
 
 html {
-	font-size: 62.5%; /* 1rem = 10px */
+	font-size: 75% !important; /* 1rem = 10px */
 	scroll-behavior: smooth;
 }
 
@@ -5927,7 +5927,7 @@ a.to-the-top > * {
 		/*rtl:ignore*/
 		margin-left: 0;
 	}
-  
+
     .wp-block-image .aligncenter figcaption {
         text-align: center;
     }
@@ -6473,7 +6473,7 @@ a.to-the-top > * {
 
 /* ===== NON-WordPress STYLES ===== */
 
-/* 	
+/*
 =============================================================================
  NORMALIZE (using HTML5 Boilerplate)
 =============================================================================
@@ -6557,7 +6557,7 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 table { border-collapse: collapse; border-spacing: 0; }
 
 
-/* 	
+/*
 =============================================================================
  PRIMARY STYLES
 =============================================================================
@@ -6598,7 +6598,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* 	Fonts
  --------------------------------------------------- */
-	
+
 	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 
@@ -6634,7 +6634,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	}
 	.avi > a > .coverimg{
 		    border-radius: 50%;
-	}	
+	}
 	.container{
 		max-width:1900px;
 		width:80%;
@@ -6647,7 +6647,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 		display:table-row;
 	}
 	.tc{
-		text-align:center;	
+		text-align:center;
 	}
 	.project{
 		width:calc(50% - 10px);
@@ -6674,7 +6674,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 		display: inline-block;
 	}
 
-/* 	
+/*
 =============================================================================
  MEDIA QUERIES
 =============================================================================
@@ -6682,58 +6682,58 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 @media only screen and (max-width: 320px) {
 
-	/* BASE 
+	/* BASE
 	=================== */
 
 	/* LAYOUT
 	=================== */
 
-	/* MODULE 
+	/* MODULE
 	=================== */
 
 }
 
 @media only screen and (max-width: 480px) {
 
-	/* BASE 
+	/* BASE
 	=================== */
 
 	/* LAYOUT
 	=================== */
 
-	/* MODULE 
+	/* MODULE
 	=================== */
 
 }
 
 @media only screen and (max-width: 768px) {
-	
-	/* BASE 
+
+	/* BASE
 	=================== */
 
 	/* LAYOUT
 	=================== */
 
-	/* MODULE 
+	/* MODULE
 	=================== */
 
 }
 
 @media only screen and (max-width: 1024px) {
-	
-	/* BASE 
+
+	/* BASE
 	=================== */
 
 	/* LAYOUT
 	=================== */
 
-	/* MODULE 
+	/* MODULE
 	=================== */
 
 }
 
 @media only screen and (max-width: 1280px) {
-	
+
 	.project{
 		width:100%;
 	}
@@ -6747,7 +6747,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 }
 
 
-/* 	
+/*
 =============================================================================
  NON-SEMANTIC HELPER CLASSES - Please define your styles before this section.
 =============================================================================
@@ -6762,5 +6762,3 @@ table { border-collapse: collapse; border-spacing: 0; }
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
-
-
