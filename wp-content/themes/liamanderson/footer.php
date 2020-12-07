@@ -40,5 +40,7 @@
 			</a>
 		</div>
     </footer>
+		<link rel="stylesheet" href="https://blog.liamanderson.co.uk/wp-content/themes/liamanderson/assets/css/prism.css">
+		<script src="https://blog.liamanderson.co.uk/wp-content/themes/liamanderson/assets/js/prism.js"></script>
 </body>
 </html>
