@@ -48,7 +48,7 @@
 					echo '<div class="code"><pre rel="'.$categorieC[0]->name.'" class="'.$categorieC[0]->name.'"><code>';
 					echo get_field('code', $theId);
 =======
-				
+
 			} else {
 				the_content( __( 'Continue reading', 'liamanderson' ) );
 				echo strval($categorieC);

@@ -35,7 +35,6 @@
 			/* $categorieP=get_categories(
 				array( 'parent' => $cat->cat_name )
 			); */
-			); */
 			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();
 
