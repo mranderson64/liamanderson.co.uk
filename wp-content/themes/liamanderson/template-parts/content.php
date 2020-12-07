@@ -30,23 +30,23 @@
 		<div class="entry-content">
 
 			<?php
-			$categorieC=get_categories(
-				array( 'children' => $cat->cat_name )
-			);
-			$categorieP=get_categories(
+			$theId = get_the_ID();
+			$categorieC=get_the_category();
+			/* $categorieP=get_categories(
 				array( 'parent' => $cat->cat_name )
-			);
+			); */
 			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();
+
 			} else {
 				the_content( __( 'Continue reading', 'liamanderson' ) );
-				if($categorieP == 'Snippets'){
-					echo '<div class="code"><pre rel="'.$categorieC.'" class="'.$categorieC.'"><code>';
-					get_field( "code" );
+				if($categorieC[1]->name == "Snippets"){
+					echo '<div class="code"><pre rel="'.$categorieC[0]->name.'" class="'.$categorieC[0]->name.'"><code>';
+					echo get_field('code', $theId);
 					echo '</code></pre></div>';
 				}
 			}
-			
+
 			?>
 
 		</div><!-- .entry-content -->
@@ -86,9 +86,9 @@
 
 	}
 
-	
-		
-	
+
+
+
 	?>
 
 </article><!-- .post -->
