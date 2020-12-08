@@ -37,26 +37,26 @@
 			for($i = 0; $i < $catLen; $i++){
 				$cats[$i] = $categorieC[$i]->name;
 			}
-			function getLangIndex($cats){
+			/*function getLangIndex($cats){
 				$lang = [get_field('lang_list', 28)];
+				//var_dump($lang);
 				for($i = 0; $i <= count($lang); $i++ ){
 					if(array_search($lang[$i], $cats)){
-						return array_search($lang[$i], $cats);
+						return array_search(get_cat_name($lang[$i]), $cats);
 					}
 				}
-			}
+			}*/
 			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();
 
 			} else {
 				the_content( __( 'Continue reading', 'liamanderson' ) );
-				if(array_search('Snippets', $cats) /*$categorieC[1]->name == "Snippets"*/){
-					echo '<div class="code"><pre rel="'.$cats[getLangIndex($cats)].'" class="'.$cats[getLangIndex($cats)].'"><code class="language-'.$cats[getLangIndex($cats)].'">';
+				if($categorieC[1]->name == "Snippets"){
+					echo '<div class="code"><pre rel="'.$categorieC[0]->name.'" class="'.$categorieC[0]->name.'"><code class="language-'.$categorieC[0]->name.'">';
 					echo get_field('code', $theId);
 					echo '</code></pre></div>';
-				}
-				if(array_search('Projects', $cats) /*$categorieC[1]->name == "Projects"*/){
-					echo '<div class="code"><pre rel="'.$cats[getLangIndex($cats)].'" class="'.$cats[getLangIndex($cats)].'"><code class="language-'.$cats[getLangIndex($cats)].'">';
+				}elseif($categorieC[1]->name == "Projects"){
+					echo '<div class="code"><pre rel="'.$categorieC[0]->name.'" class="'.$categorieC[0]->name.'"><code class="language-'.$categorieC[0]->name.'">';
 					echo get_field('code', $theId);
 					echo '</code></pre></div>';
 					$rows = get_field('code_explanation');
