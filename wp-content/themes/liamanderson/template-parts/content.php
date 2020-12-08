@@ -63,7 +63,7 @@
     				foreach( $rows as $row ) {
         			echo get_sub_field('content');
 							if(get_sub_field(('code_part_cb')){
-								echo '<div class="code"><pre rel="'.get_sub_field('language').'" class="'.get_sub_field('language').'"><code class="language-'.get_sub_field('language').'">';
+								echo '<div class="code"><pre rel="'.get_sub_field("language").'" class="'.get_sub_field("language").'"><code class="language-'.get_sub_field("language").'">';
 								echo get_sub_field('code_part', $theId);
 								echo '</code></pre></div>';
 							}
