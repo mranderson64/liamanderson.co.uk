@@ -14,6 +14,12 @@
 		]]>
 	</intro>
 	<panel>
+		<pTitle>Blog</pTitle>
+		<pURL>https://blog.liamanderson.co.uk</pURL>
+		<pImage>blog.png</pImage>
+		<pDescription>Here I will be posting updates on projects I'm working on idea concepts and code snippits.</pDescription>
+	</panel>
+	<panel>
 		<pTitle>tools.liamanderson.co.uk</pTitle>
 		<pURL>https://tools.liamanderson.co.uk</pURL>
 		<pImage></pImage>
@@ -36,12 +42,6 @@
 		<pURL>https://onlyrams.co.uk</pURL>
 		<pImage>logo-wb.png</pImage>
 		<pDescription>A parody of the adult content site only fans</pDescription>
-	</panel>
-	<panel>
-		<pTitle>Blog</pTitle>
-		<pURL>https://blog.liamanderson.co.uk</pURL>
-		<pImage>blog.png</pImage>
-		<pDescription>Here I will be posting updates on projects I'm working on idea concepts and code snippits.</pDescription>
 	</panel>
 	<panel>
 		<pTitle>Curriculum Vitae</pTitle>
