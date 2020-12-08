@@ -32,18 +32,43 @@
 			<?php
 			$theId = get_the_ID();
 			$categorieC=get_the_category();
-			/* $categorieP=get_categories(
-				array( 'parent' => $cat->cat_name )
-			); */
+			$cats = [];
+			function getLangIndex($cats){
+				$lang = [get_field('lang_list', 28)];
+				for($i = 0; $i <= count($lang); $i++ ){
+					if(array_search($lang[i], $cats[i])){
+						return array_search($lang[i], $cats[i])
+					}
+				}
+			}
+			for($i = 0; $i <= count($categorieC); $i++ ){
+				$cats[i] = $categorieC[i]->name;
+			}
 			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();
 
 			} else {
 				the_content( __( 'Continue reading', 'liamanderson' ) );
-				if($categorieC[1]->name == "Snippets"){
-					echo '<div class="code"><pre rel="'.$categorieC[0]->name.'" class="'.$categorieC[0]->name.'"><code class="language-'.$categorieC[0]->name.'">';
+				if(array_search('Snippets', $cats) /*$categorieC[1]->name == "Snippets"*/){
+					echo '<div class="code"><pre rel="'.$cats[getLangIndex($cats)].'" class="'.$cats[getLangIndex($cats)].'"><code class="language-'.$cats[getLangIndex($cats)].'">';
 					echo get_field('code', $theId);
 					echo '</code></pre></div>';
+				}
+				if(array_search('Projects', $cats) /*$categorieC[1]->name == "Projects"*/){
+					echo '<div class="code"><pre rel="'.$cats[getLangIndex($cats)].'" class="'.$cats[getLangIndex($cats)].'"><code class="language-'.$cats[getLangIndex($cats)].'">';
+					echo get_field('code', $theId);
+					echo '</code></pre></div>';
+					$rows = get_field('code_explanation');
+					if( $rows ) {
+    				foreach( $rows as $row ) {
+        			echo get_sub_field('content');
+							if(get_sub_field(('code_part_cb')){
+								echo '<div class="code"><pre rel="'.get_sub_field('language').'" class="'.get_sub_field('language').'"><code class="language-'.get_sub_field('language').'">';
+								echo get_sub_field('code_part', $theId);
+								echo '</code></pre></div>';
+							}
+    				}
+					}
 				}
 			}
 
