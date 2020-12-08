@@ -33,16 +33,17 @@
 			$theId = get_the_ID();
 			$categorieC=get_the_category();
 			$cats = [];
+			$catLen = count($categorieC);
+			for($i = 0; $i < $catLen; $i++){
+				$cats[$i] = $categorieC[$i]->name;
+			}
 			function getLangIndex($cats){
 				$lang = [get_field('lang_list', 28)];
 				for($i = 0; $i <= count($lang); $i++ ){
-					if(array_search($lang[i], $cats[i])){
-						return array_search($lang[i], $cats[i]);
+					if(array_search($lang[$i], $cats)){
+						return array_search($lang[$i], $cats);
 					}
 				}
-			}
-			for($i = 0; $i <= count($categorieC); $i++ ){
-				$cats[i] = $categorieC[i]->name;
 			}
 			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();
@@ -60,14 +61,15 @@
 					echo '</code></pre></div>';
 					$rows = get_field('code_explanation');
 					if( $rows ) {
-    				foreach( $rows as $row ) {
-        			echo get_sub_field('content');
-							if(get_sub_field(('code_part_cb')){
-								echo '<div class="code"><pre rel="'.get_sub_field("language").'" class="'.get_sub_field("language").'"><code class="language-'.get_sub_field("language").'">';
-								echo get_sub_field('code_part', $theId);
+    					foreach( $rows as $row ) {
+        					echo get_sub_field('content');
+							if(the_sub_field('code_part_cb')){
+								$lang = get_sub_field("language");
+								echo '<div class="code"><pre rel="'.$lang.'" class="'.$lang.'"><code class="language-'.$lang.'">';
+								get_sub_field('code_part', $theId);
 								echo '</code></pre></div>';
 							}
-    				}
+	    				}
 					}
 				}
 			}
