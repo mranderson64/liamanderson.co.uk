@@ -37,7 +37,7 @@
 				$lang = [get_field('lang_list', 28)];
 				for($i = 0; $i <= count($lang); $i++ ){
 					if(array_search($lang[i], $cats[i])){
-						return array_search($lang[i], $cats[i])
+						return array_search($lang[i], $cats[i]);
 					}
 				}
 			}
